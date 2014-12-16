@@ -1,7 +1,7 @@
 class Game < ActiveRecord::Base
 
 
-	def attack(attacker_str, target_health) # should be from opposites as implied if player is attacking take player str and enemy health, general trend for all of them.
+	def attack(attacker_str, attacker_dex, target_health) # should be from opposites as implied if player is attacking take player str and enemy health, general trend for all of them.
 		
 	end
 
