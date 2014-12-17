@@ -11,6 +11,8 @@ gem 'pry-rails'
 
 gem 'pg'
 
+gem 'arel', '6.0.0.beta2'
+
 
 
 # To use ActiveModel has_secure_password

@@ -10,6 +10,7 @@ class CreateCharacters < ActiveRecord::Migration
       t.integer :intelligence
       t.integer :health
       t.integer :mana
+      t.belongs_to :user
     end
   end
 end
