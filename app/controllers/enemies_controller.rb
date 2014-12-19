@@ -2,7 +2,6 @@ class EnemiesController < ApplicationController
 	before_action :index, only: [:create]
 	def index
 		# do I want an array of enemies?
-		@enemies = Enemy.all
 	end
 
 	def create(player_level)
